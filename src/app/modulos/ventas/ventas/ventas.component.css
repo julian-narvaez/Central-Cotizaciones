@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor-principal {
+  display: flex;
+  height: 100vh;
+  max-height: 88vh;
+  width: 100%;
+  max-width: 100%;
+  padding: 1rem;
+}
+.contenedor-cards {
+  flex: 1 auto;
+  display: flex;
+  height: 100%;
+  max-height: 100%;
+  width: 100%;
+  max-width: 100%;
+  padding: 1rem;
+  flex-flow: column;
+}
+.contenedor-carpinteria {
+  display: flex;
+  flex: 1 auto;
+  height: 100%;
+  max-height: 30%;
+  flex-flow: column;
+}
+.imagen-carpinteria {
+  display: flex;
+  flex: 1 auto;
+  background-image: url("../../../../assets/imagenes/categorias/carpinteria.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100%;
+  max-height: 90%;
+}
+.contenedor-boton-carpinteria {
+  display: flex;
+  flex: 1 auto;
+}
+
+.contenedor-construccion {
+  display: flex;
+  flex: 1 auto;
+  height: 100%;
+  max-height: 30%;
+  margin-top: 1rem;
+  flex-flow: column;
+}
+.imagen-construccion {
+  display: flex;
+  flex: 1 auto;
+  background-image: url("../../../../assets/imagenes/categorias/construccion.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100%;
+  max-height: 90%;
+}
+.contenedor-boton-construccion {
+  display: flex;
+  flex: 1 auto;
+}
+
+.contenedor-digital {
+  display: flex;
+  flex: 1 auto;
+  height: 100%;
+  max-height: 30%;
+  margin-top: 1rem;
+  flex-flow: column;
+}
+.imagen-digital {
+  display: flex;
+  flex: 1 auto;
+  background-image: url("../../../../assets/imagenes/categorias/digital.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100%;
+  max-height: 90%;
+}
+.contenedor-boton-digital {
+  display: flex;
+  flex: 1 auto;
+}
+.boton-carpinteria {
+  flex: 1 auto;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 82%;
+}
+.boton-construccion {
+  flex: 1 auto;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 85%;
+}
+.boton-digital {
+  flex: 1 auto;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 82%;
+}

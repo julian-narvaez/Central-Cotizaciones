@@ -1,0 +1,42 @@
+{
+  "carpinteria": [
+    {
+      "id": 1,
+      "accesorio": "Cerrucho",
+      "descripcion": "Acero inoxidable de alta calidad",
+      "marca": "Prestige",
+      "valor": "25000"
+    },
+    {
+      "id": 2,
+      "accesorio": "Compresor",
+      "descripcion": "Compresor portátil 6 litros",
+      "marca": "Cetelem",
+      "valor": "300000"
+    },
+    {
+      "id": 3,
+      "accesorio": "Brocas",
+      "descripcion": "Juego de 20 mini-brocas de 0,3 a 1 mm",
+      "marca": "Gama expert",
+      "valor": "10000"
+    },
+    {
+      "id": 4,
+      "accesorio": " Afiladoras",
+      "descripcion": "Afiladora manual cadenas de motosierra",
+      "marca": "Silver",
+      "valor": "120000"
+    },
+    {
+      "id": 5,
+      "articulo": "Cepillos fijadores",
+      "descripcion": "Cepillo abrasivo con filamentos gruesos de 50 mm",
+      "marca": "Gama expert",
+      "valor": "9000"
+    }
+  ],
+  "construccion":[],
+  "digital":[]
+
+}

@@ -1,0 +1,39 @@
+
+<div class="container-fluid contenedor-principal">
+  <div class="contenedor-login">
+    <form [formGroup]="formulario" (submit)="login()">
+      <div class="card-login card">
+        <div class="contenedor-inputs">
+          <div class="titulo">
+            <span class="span-titulo">Inicio sesión</span>
+          </div>
+          <div class="contenedor-imput-usuario">
+            <mat-form-field class="example-full-width">
+              <mat-label>Usuario</mat-label>
+              <input type="email" matInput formControlName="email" placeholder="Ex. pat@example.com">
+              <div *ngIf="ValidarEmail">
+                <mat-error *ngIf="formulario.controls.email.errors.required">
+                  El campo es requerido
+                </mat-error>
+              </div>
+            </mat-form-field>
+          </div>
+          <div class="contenedor-imput-password">
+            <mat-form-field class="example-full-width">
+              <mat-label>Contraseña</mat-label>
+              <input type="password" matInput formControlName="contrasena" placeholder="Ex. 111111">
+              <div *ngIf="ValidarContrasena">
+                <mat-error *ngIf="formulario.controls.contrasena.errors.required">
+                  El campo es requerido
+                </mat-error>
+              </div>
+            </mat-form-field>
+          </div>
+          <div class="contenedor-boton-inicio">
+            <button type="submit" class="btn btn-primary boton-login">Login</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
