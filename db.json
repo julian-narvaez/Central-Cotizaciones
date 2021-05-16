@@ -36,7 +36,43 @@
       "valor": "9000"
     }
   ],
-  "construccion":[],
+  "construccion":[
+    {
+       "id":1,
+       "accesorio":"Cemento Argos Gris 50kg",
+       "descripcion":"Cemento de gran finura, desarrolla resistencias garantizando un adecuado programa de retiro de formaletas y puesta en funcionamiento de las estructuras",
+       "marca":"Argos",
+       "valor":23500
+    },
+    {
+       "id":2,
+       "accesorio":"VARILLA G-60 W 12mm x 6m",
+       "descripcion":"Varilla de amarre utilizada en vigas y en fundicion de placas",
+       "marca":"Metales Occidente",
+       "valor":24990
+    },
+    {
+       "id":3,
+       "accesorio":"Bloque #5 estandar 12 x 20 x 30 cm",
+       "descripcion":"Ladrillo de alta calidad, resistente y duradero, compacto en su estructura.",
+       "marca":"Ardesa",
+       "valor":900
+    },
+    {
+       "id":4,
+       "accesorio":"Cal hidratada 10 kilos",
+       "descripcion":"Cal blanca de excelente calidad, resistente y alta duracion.",
+       "marca":"Corona",
+       "valor":11000
+    },
+    {
+       "id":5,
+       "accesorio":"Estucor estuco 5 kilos",
+       "descripcion":"Estuco de alta calidad, uniforme, facil aplicacion, excelente acabado, proporciona una textura lisa, alta duresa y gran adherencia al revoque.",
+       "marca":"Corona",
+       "valor":7900
+    }
+  ],
   "digital":[]
 
 }
